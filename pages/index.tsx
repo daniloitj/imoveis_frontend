@@ -1,4 +1,9 @@
 import Head from 'next/head'
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: red;
+`;
 
 export default function Home() {
   return (
@@ -9,13 +14,12 @@ export default function Home() {
       </Head>
 
       <main>
-        Typescript
+        <Title>Criando Sistema de Imóveis com Next.js Reactjs Typescript Styled-Components [Part 3] - Configurando Styled-Components</Title>
       </main>
 
       <footer>
 
       </footer>
-
     </div>
   )
 }
